@@ -1627,27 +1627,27 @@ input, select, textarea {
 	}
 
 	.wrapper.style1 {
-		background-color: #af4a01;
+		background-color: red;
 	}
 
 	.wrapper.style1-alt {
-		background-color: #493382;
+		background-color: red;
 	}
 
 	.wrapper.style2 {
-		background-color: #5052b5;
+		background-color: red;
 	}
 
 	.wrapper.style2-alt {
-		background-color: #3e4094;
+		background-color: red;
 	}
 
 	.wrapper.style3 {
-		background-color: #b74e91;
+		background-color: red;
 	}
 
 	.wrapper.style3-alt {
-		background-color: #953d75;
+		background-color: red;
 	}
 
 	.wrapper.fullscreen {
@@ -2062,7 +2062,8 @@ input, select, textarea {
 			display: flex;
 		}
 		.social-media-big-devices a img {
-			width: 32px;
+			width: 58px;
+			padding-left: 0.5em;
 		}	
 		ul {
 			list-style: disc;
@@ -2097,21 +2098,14 @@ input, select, textarea {
 			z-index: 10000;
 		}
 		#sidebar nav a {
-			-moz-transition: color 0.2s ease;
-			-webkit-transition: color 0.2s ease;
-			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
 			color: rgba(0, 0, 0);
 			display: block;
-			font-size: 0.6em;
+			font-size: 15px;
 			font-weight: bold;
 			letter-spacing: 0.25em;
-			line-height: 1.75;
-			outline: 0;
-			padding: 1.35em 0;
-			position: relative;
-			text-decoration: none;
+			padding: 1em 0;
 			text-transform: uppercase;
 			text-align: center;
 		}
