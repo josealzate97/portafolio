@@ -1,5 +1,19 @@
 @import url(fontawesome-all.min.css);
 
+	/* COLORES PARA EL PROYECTO */
+	:root {
+		/** Backgrounds **/
+		--sidebar: rgb(252, 241, 241);
+		--bg-profile: rgb(247, 160, 62);
+		--bg-experience: rgb(226, 80, 36);
+		--bg-knowledge: rgb(226, 80, 36);
+		--bg-projects: rgb(226, 80, 36);
+		--bg-contact: rgb(226, 80, 36);
+		/** Hovers **/
+		/** Color textos **/
+		--texts-sidebar: rgb(0, 0, 0, 0.667);
+		--texts-main:rgb(252, 241, 241);
+	}
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	pre, a, abbr, acronym, address, big, cite,
@@ -1987,6 +2001,12 @@
 	}
 	/* Tablets en horizonal y escritorios normales  */
 	@media (min-width: 768px) and (max-width: 1199px) {
+		.name-profile-div {
+			display: none;
+		}
+		.nav-bar-div1 {
+			height: 4em;
+		}
 		ul {
 			list-style: none;
 			margin: 0 0 2em 0;
@@ -1994,6 +2014,7 @@
 		}
 		ul li {
 			margin: 0 auto;
+			color: black;
 		}
 		ul.alt {
 			list-style: none;
@@ -2017,6 +2038,7 @@
 		}
 		.nav-bar-list-small-devices {
 			display: flex;
+			margin-top: 1.5em;
 		}
 		.nav-bar-list {
 			display: none;
